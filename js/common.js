@@ -1,6 +1,6 @@
 $(function() {
 
-
+	//Owl-Carousel
 	$('.owl-carousel').owlCarousel({
     rtl:true,
 		loop:true,
@@ -24,11 +24,11 @@ $(function() {
 		}
 	});
 
+	//fancybox
 	$(document).ready(function() {
-    $("a.gallery").fancybox();
+    $(".gallery").fancybox();
 	});
 	
-
 });
 
 
