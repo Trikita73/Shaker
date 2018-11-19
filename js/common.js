@@ -4,13 +4,15 @@ $(function() {
 	$('.owl-carousel').owlCarousel({
     rtl:true,
 		loop:true,
-		//margin:10,
 		navText: ['<i class="fa fa-angle-double-left"></i>', '<i class="fa fa-angle-double-right"></i>'],
 		nav:true,
 		dots: false,
     responsive: {
 			0: {
 				items: 1
+			},
+			568: {
+				items: 2
 			},
 			768: {
 				items: 2
@@ -20,15 +22,11 @@ $(function() {
 			},
 			1200: {
 				items: 4
+			},
+			1500: {
+				items: 5
 			}
 		}
 	});
-
-	//fancybox
-	$(document).ready(function() {
-    $(".gallery").fancybox();
-	});
 	
 });
-
-
